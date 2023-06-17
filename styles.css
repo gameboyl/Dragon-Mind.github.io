@@ -1,0 +1,368 @@
+body {
+    background-color: black;
+    overflow: hidden !important;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#D {
+    position: relative;
+    color: red;
+    font-size: 70px;
+    bottom: 100px;
+    left: 428px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; 
+    cursor: text;
+}
+
+#BodyID {
+    background-color: black;
+    width: 100%;
+    height: 1000vh;
+}
+.red {
+    position: relative;
+    color: red;
+    font-size: 40px;
+    bottom: 312px;
+    left: 531px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; 
+    cursor: text;
+}
+#M {
+    position: relative;
+    color: blue;
+    bottom: 475px;
+    left: 694px;
+    font-size: 100px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; 
+    cursor: text;
+}
+.blue {
+    position: relative;
+    color: blue;
+    font-size: 50px;
+    bottom: 620px;
+    left: 790px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; 
+    cursor: text;
+}
+.redc {
+    position: relative;
+    color: red;
+    bottom: 639px;
+    left: 511px;
+    font-size: 25px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; 
+    cursor: text;
+}
+.bluec {
+    position: relative;
+    color: blue;
+    font-size: 25px;
+    bottom: 695px;
+    left: 587px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; 
+    cursor: text;
+}
+.greenc {
+    position: relative;
+    color: green;
+    font-size: 25px;
+    bottom: 752px;
+    left: 688px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; 
+    cursor: text;
+}
+#join {
+    position: relative;
+    background-color: red;
+    border: 4px solid white;
+    cursor: pointer;
+    height: 15vh;
+    width: 15%;
+    bottom: 648px;
+    left: 523px;
+    font-size: 15px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; 
+}
+#join:hover {
+    filter: brightness(0.8);
+}
+#HideBody {
+    position: relative;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 9px;
+    height: 60vh;
+    width: 40%;
+    color: white;
+    text-align: center;
+    bottom: -140px;
+    left: 444px;
+    display: none;
+    box-shadow: 0 0 10px white;
+}
+.name {
+    color: white;
+    font-size: 20px;
+}
+.EnterName {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    
+}
+.EnterName:focus {
+    border-radius: 0;
+}
+.password {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.code {
+    font-size: 16px;
+}
+.Submit {
+    background-color: rgb(4, 165, 4);
+    color: white;
+    cursor: pointer;
+    /* border-radius: 9px; */
+    border: 2px solid red;
+    height: 4vh;
+}
+.Submit:hover {
+    filter: brightness(0.9);
+}
+.show {
+    position: relative;
+    right: 17px;
+    cursor: pointer;
+}
+.spanned {
+    position: relative;
+    right: 15px;
+
+}
+.ErrorPassword {
+    color: rgb(197, 43, 43);
+}
+.ErrorName {
+    color:rgb(197, 43, 43);
+}
+.greet {
+    position: relative;
+    color: white;
+    display: inline;
+    font-size: 90px;
+    bottom: 192px;
+    left: 504px;
+    font-style: bold;
+
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; 
+}
+.blur {
+    filter: blur(10px);
+}
+#RulesPopup {
+    position: relative;
+    display: none;
+    bottom: 220px;
+}
+.buttonT {
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    cursor: pointer;
+    height: 5vh;
+    border: 2px solid white;
+    box-shadow: 0 0 0 4px orangered;
+}
+.buttonT:hover {
+    filter: brightness(0.8);
+}
+#rules {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 60vh;
+    border: 2px solid white;
+    border-radius: 9px;
+    margin-top: 10px;
+    margin-left: 310px;
+    display: none;
+}
+#next {
+    position: relative;
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 13px;
+    height: 4vh;
+    color: white;
+    left: 308px;
+    top: 50px;
+}
+#next:hover {
+    background-color: white;
+    color: black;
+}
+.accept {
+    margin-top: 79px;
+    margin-left: 26px;
+    cursor: pointer;
+}
+.acceptT {
+    user-select:none;
+}
+.li {
+    margin-top: 10px;
+}
+#ErrorAccept {
+    color: red;
+    margin-left: 215px;
+}
+#soonTM {
+    margin-top: 100px;
+    font-size: 100px;
+}
+#LastPage {
+    display: none;
+}
+@media (max-width: 771px) {
+    #HideBody {
+        left: 244px;
+        width: 50%;
+    }
+}
+@media (max-width: 527px) {
+    #HideBody {
+        left: 044px;
+        width: 70%;
+    }
+}
+@media (max-width: 890px) {
+    body {
+        overflow: hidden !important;
+    }
+    #D {
+        left: 228px;
+    }
+    .red {
+        left:331px;
+    }
+    #M {
+        left: 494px;
+    }
+    .blue {
+        left: 590px;
+    }
+    .redc {
+        left: 311px;
+    }
+    .bluec {
+        left: 387px;
+    }
+    .greenc {
+        left: 488px;
+    }
+    #join {
+        left: 323px;
+        width: 20%;
+    }
+}
+@media (max-width: 693px) {
+    body {
+        overflow: hidden !important;
+    }
+    #D {
+        left: 028px;
+    }
+    .red {
+        left: 131px;
+    }
+    #M {
+        left: 294px;
+    }
+    .blue {
+        left: 390px;
+    }
+    .redc {
+        left: 111px;
+    }
+    .bluec {
+        left: 187px;
+    }
+    .greenc {
+        left: 288px;
+    }
+    #join {
+        left: 123px;
+        width: 30%;
+    }
+}
+@media (max-width: 489px) {
+    body {
+        overflow: hidden !important;
+    }
+    #D {
+        left: 028px;
+    }
+    .red {
+        left: 131px;
+    }
+    #M {
+        left: 024px;
+        bottom: 375px;
+    }
+    .blue {
+        left: 120px;
+        bottom: 520px;
+    }
+    .redc {
+        left: 011px;
+        bottom: 539px;
+    }
+    .bluec {
+        left: 087px;
+        bottom: 595px;
+    }
+    .greenc {
+        left: 188px;
+        bottom: 652px;
+    }
+    #join {
+        left: 023px;
+        width: 40%;
+        bottom: 548px;
+    }
+}

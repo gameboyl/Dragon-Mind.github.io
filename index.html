@@ -4,16 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href = "output.jpg" type = "image/x-ic">
-    <link rel="stylesheet" href="style.css">
-    <title>Dragon Mind</title>
+    <link rel="icon" href = "logo.png" type = "image/x-ic">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Dragon Mind Join</title>
 </head>
 <body>
+    <div id="FrontPage">
+    <div id="bodyID">
     <span id = "D"><h1>D</h1></span>
     <span class="red">RAGON</span>
     <span><h1 id="M">M</h1></span>
     <h1 class = "blue">IND</h1>
     <p><p class="redc">(DLF</p> <p class="bluec">faze-2</p> <p class="greenc">park)</p></p>
     <button id="join"><b>JOIN NOW!</b></button>
+    </div>
+
+    <div id="HideBody">
+        <h1 class = "HeadingOfTerms">DRAGON MIND</h1>
+        <p class = "name">Enter your name</p>
+        <input type="text" class = "EnterName">
+        <p class = "ErrorName"></p>
+        <p class="code">Enter the code of the group</p>
+        <input type="password" class = "password">
+        <p class = "ErrorPassword"></p>
+        <br>
+        <input type="checkbox" class = 'show'><span class = "spanned">Show password</span>
+        <br>
+        <br>
+        <button class = "Submit">Submit</button>
+    </div>
+    </div>
+    <h1 class="greet"></h1>
+
+    <div id="RulesPopup">
+    <center><h1>Terms and Conditions</h1></center>
+    <center><button class="buttonT"><b class = "textButtonT">Terms and Conditions</b></button></center>
+    <div id="rules">
+        <ul id = "RulesWritten">
+            <li class = "li">
+                Do not hurt anyone
+            </li>
+            <li class = "li">
+                Do not abuse
+            </li>
+            <li class = "li">
+                Follow the rules of the leader , captain and co - leader
+            </li>
+            <li class = "li">
+                If you break the rules your warning will be deducted and if u got 10 warnings deducted then u will be permanently banned from the group
+            </li>
+        </ul>
+        <input type="checkbox" class = "accept"><span class = "acceptT"> I accept the Terms and Conditions</span>
+        <br>
+        <p id="ErrorAccept"></p>
+        <br>
+        <button id = "next">NEXT</button>
+    </div>
+    </div>
+
+    <div id="LastPage">
+        <center><h1 id = "soonTM">Coming Soon!</h1></center>
+    </div>
 </body>
 </html>
